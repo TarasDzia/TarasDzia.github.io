@@ -1,0 +1,7 @@
+#folders
+
+.idea/
+.idea/*
+
+#xml
+*.xml
