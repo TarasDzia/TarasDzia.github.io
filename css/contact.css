@@ -1,0 +1,59 @@
+/* Call To Action */
+
+.call-to-action .row {
+    margin-top: 60px;
+    padding: 30px;
+    background-color: rgba(233, 170, 238, 0.38);
+    border-radius: 5px;
+}
+
+.call-to-action .row h4 {
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.call-to-action .row em {
+    font-style: normal;
+    font-weight: 700;
+}
+
+.call-to-action .row .col {
+    text-align: right;
+}
+.call-to-action .row .center {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.call-to-action .row .filled-button {
+    margin-top: 22px;
+    height: 50px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: 3px solid #ce17ee;
+    color: #ce17ee;
+}
+
+
+
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+}
+
+footer .inner-content {
+    border-top: 1px solid #eee;
+    margin-top: 60px;
+}
+
+footer .inner-content p {
+    text-transform: uppercase;
+}
+
+footer .inner-content p a {
+    color: #f33f3f;
+    margin-left: 3px;
+}

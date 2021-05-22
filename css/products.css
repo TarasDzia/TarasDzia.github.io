@@ -1,0 +1,22 @@
+.products{
+    padding-top: 100px;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.products .section-heading{
+    display: flex;
+    justify-content: space-between;
+}
+.products a{
+    text-decoration: none;
+    color: #ce17ee;
+}
+.card{
+    width: 21rem;
+    margin-bottom: 10px;
+}
+
+
+
