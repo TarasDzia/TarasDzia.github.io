@@ -12,12 +12,6 @@
     overflow: hidden;
 }
 
-.best-features h4 {
-    font-size: 17px;
-    color: #1a6692;
-    margin-bottom: 20px;
-}
-
 .best-features ul.featured-list li {
     display: block;
     margin-bottom: 10px;
@@ -34,10 +28,11 @@
     transition: all .3s;
     position: relative;
     padding-left: 13px;
+    text-decoration: none;
 }
 
 .best-features ul.featured-list li a:before {
-    content: '';
+    content: ' ';
     width: 5px;
     height: 5px;
     display: inline-block;
@@ -57,6 +52,7 @@
 }
 
 .best-features .filled-button {
+    color: #ce17ee;
     margin-top: 20px;
 }
 
