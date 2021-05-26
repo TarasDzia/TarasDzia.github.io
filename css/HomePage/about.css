@@ -1,5 +1,6 @@
 .best-features {
-    margin-top: 50px;
+    padding-top: 100px;
+    /*margin-top: 50px;*/
 }
 
 .best-features .container .row {
@@ -21,7 +22,7 @@
     margin-bottom: 25px;
 }
 
-.best-features ul.featured-list li a {
+.best-features ul.featured-list li {
     font-size: 14px;
     color: #4a4a4a;
     font-weight: 300;
@@ -31,7 +32,7 @@
     text-decoration: none;
 }
 
-.best-features ul.featured-list li a:before {
+.best-features ul.featured-list li:before {
     content: ' ';
     width: 5px;
     height: 5px;
@@ -43,16 +44,25 @@
     top: 8px;
 }
 
-.best-features ul.featured-list li a:hover {
+.best-features ul.featured-list li:hover {
     color: #ce17ee;
 }
 
-.best-features ul.featured-list li a:hover::before {
+.best-features ul.featured-list li:hover::before {
     background-color: #ce17ee;
 }
 
 .best-features .filled-button {
     color: #ce17ee;
     margin-top: 20px;
+}
+
+.mission{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.mission h3{
+    font-weight: bold;
 }
 
