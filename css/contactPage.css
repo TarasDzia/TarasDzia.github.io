@@ -1,0 +1,33 @@
+.contact {
+    padding-top: 140px;
+}
+.contact img{
+    max-width: 100%;
+    overflow: hidden;
+}
+.contact .item .title{
+    font-weight: bold;
+}
+.item{
+    margin: 30px 0;
+}
+.center-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 5px;
+    border: 3px solid #ce17ee;
+    color: #ce17ee;
+    text-decoration: none;
+    text-align: center;
+}
+.link a:hover{
+    background-color: #ce17ee;
+    color: white;
+}

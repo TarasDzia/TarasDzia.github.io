@@ -1,29 +1,29 @@
-.call-to-action .row {
+.contact .row {
     margin-top: 60px;
     padding: 30px;
     background-color: rgba(233, 170, 238, 0.38);
     border-radius: 5px;
 }
 
-.call-to-action .row h4 {
+.contact .row h4 {
     font-size: 17px;
     margin-bottom: 15px;
 }
 
-.call-to-action .row em {
+.contact .row em {
     font-style: normal;
     font-weight: 700;
 }
 
-.call-to-action .row .col {
+.contact .row .col {
     text-align: right;
 }
-.call-to-action .row .center {
+.contact .row .center {
     display: flex;
     justify-content: center;
     align-content: center;
 }
-.call-to-action .row .filled-button {
+.contact .row .filled-button {
     margin-top: 22px;
     height: 50px;
     padding: 10px 5px;
@@ -33,7 +33,7 @@
     text-decoration: none;
 
 }
-.call-to-action .row .filled-button:hover {
+.contact .row .filled-button:hover {
     background-color: #ce17ee;
     color: white;
 }
