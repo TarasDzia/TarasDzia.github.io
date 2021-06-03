@@ -1,6 +1,3 @@
-.carousel{
-    height: calc(100% - 10vh);
-}
 ol.carousel-indicators li {
     background: rgba(206, 23, 238, 0.8);
     border: 2px solid #ce17ee;
@@ -30,10 +27,5 @@ ol.carousel-indicators li.active {
     content: '\f137';
     font-family: 'Font Awesome\ 5 Free';
 }
-.carousel-item .carousel-caption{
-    /*width: 600px;*/
-}
-.carousel h2{
 
-}
 

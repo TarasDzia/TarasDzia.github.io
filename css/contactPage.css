@@ -1,4 +1,4 @@
-.contact {
+.contact{
     padding-top: 140px;
 }
 .contact img{
@@ -16,18 +16,82 @@
     justify-content: center;
     align-items: center;
 }
-.link a{
+
+
+.contact button,
+.form .filled-button button{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 50px;
+    width: 100%;
     border-radius: 5px;
+    background-color: white;
     border: 3px solid #ce17ee;
     color: #ce17ee;
     text-decoration: none;
     text-align: center;
 }
-.link a:hover{
+.contact button:hover,
+.form .filled-button button:hover{
     background-color: #ce17ee;
     color: white;
+}
+.dialog{
+    display: none;
+    justify-content: center;
+    position: absolute;
+    margin: 20vh 30vw;
+    z-index: 10000;
+}
+.form{
+    padding: 25px;
+    background-color: white;
+    width: 40vw;
+    height: 100%;
+    margin: 40px auto;
+    border: black solid 2px;
+    border-radius: 25px;
+    color: #232323;
+}
+.form .dialog-heading{
+    position: absolute;
+    right: 10px;
+}
+
+.form .request-form{
+    margin: 0 auto 20px auto;
+    text-align: center;
+}
+.form .request-form input,
+.form .request-form textarea{
+    margin: 10px 5px;
+    width: 93%;
+}
+.form .request-form .halfsize input{
+    width: 45%;
+}
+.form .request-form .col-md-12{
+    display: flex;
+    justify-content: center;
+}
+.form .request-form button{
+    width: 20%;
+}
+.form h2{
+    text-align: center;
+}
+.form .fa-times-circle{
+    font-weight: bold;
+    color: #ce17ee;
+}
+#gray {
+    display: none;
+    background-color: rgba(1,1,1, 0.75);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 100;
 }

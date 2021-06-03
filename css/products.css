@@ -15,7 +15,22 @@
 .card{
     width: 21rem;
     margin-bottom: 10px;
+    transition-duration: 0.5s;
 }
+.card:hover{
+    width: 22rem;
+}
+.card small{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-title{
+    font-weight: bold;
+}
+.card-text{
+    font-style: italic;
+}
+
 
 
 

@@ -15,10 +15,12 @@
 
 </head>
 <body>
+<!--Contact us Form-->
+
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container ">
-                <a class="navbar-brand" href="index.html">Any<span>Where</span>    </a>
+                <a class="navbar-brand" href="index.html">Any<span>Where</span></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -29,7 +31,7 @@
                             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="trips.html">Trips</a>
+                            <a class="nav-link" href="packages.html">Packages</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="about.html">About Us</a>
@@ -42,6 +44,8 @@
             </div>
         </nav>
     </header>
+
+    <!--Contact us-->
 
     <div class="contact">
         <div class="container">
@@ -56,8 +60,8 @@
                             <div class="col col-md-9 subtitle">
                                 <div class="title">Connect By Email</div>
                                 Get a quote or other info by sending us a message. Our travel consultants will contact you within one business day.</div>
-                            <div class="col col-md-3 link">
-                                <a href="">Request Info</a>
+                            <div class="col col-md-3">
+                                <button onclick="show('block')">Request Info</button>
                             </div>
                         </div>
                     </div>
@@ -67,8 +71,8 @@
                                 <div class="title">Customer Service</div>
                                 Need to speak with someone regarding your AnyWhere experience?
                                 Contact our Customer Service team.</div>
-                            <div class="col col-md-3 link">
-                                <a href="">Contact Us</a>
+                            <div class="col col-md-3">
+                                <button>Contact Us</button>
                             </div>
                         </div>
                     </div>
@@ -82,7 +86,47 @@
         </div>
     </div>
 
-        <footer>
+
+<div class="dialog" id="dialog">
+    <div class="form" id="form">
+        <div class="dialog-heading">
+            <button onclick="show('none')" class="btn cross">
+                <i class="far fa-times-circle"></i>
+            </button>
+        </div>
+
+        <h2>Send us a Message </h2>
+
+
+        <form class="request-form" action="" name="fromRequest">
+            <div class="row">
+                <div class="col-md-12 halfsize">
+                    <input type="text" class="first-name" placeholder="First Name">
+                    <input type="text" class="last-name"  placeholder="Last Name">
+                </div>
+
+                <div class="col-md-12 halfsize">
+                    <input type="text" class="phone-number"  placeholder="Phone number">
+
+                    <input type="email" class="email" placeholder="Email">
+                </div>
+                <div class="col-md-12">
+                    <input type="text" class="destination" placeholder="Destination">
+                </div>
+                <div class="col-md-12">
+                    <textarea name="Massage" id="Massage" cols="" rows="5" placeholder="Tell us more about your travel plans"></textarea>
+                </div>
+
+            </div>
+        </form>
+        <div class="col-md-12 filled-button">
+            <button onclick="show('none')">Request Information</button>
+        </div>
+
+    </div>
+</div>
+<div id="gray"></div>
+    <footer>
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -94,7 +138,13 @@
         </div>
     </footer>
 
+
+
+
+
+
 <!--BootStrap Js importing -->
+    <script src="js/contactForm.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
