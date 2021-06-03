@@ -19,7 +19,7 @@
 
 
 .contact button,
-.form .filled-button button{
+.dialog .filled-button button{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,18 +33,18 @@
     text-align: center;
 }
 .contact button:hover,
-.form .filled-button button:hover{
+.dialog .filled-button button:hover{
     background-color: #ce17ee;
     color: white;
 }
-.dialog{
+.request-form{
     display: none;
     justify-content: center;
     position: absolute;
-    margin: 20vh 30vw;
+    margin: 15vh 30vw;
     z-index: 10000;
 }
-.form{
+.dialog{
     padding: 25px;
     background-color: white;
     width: 40vw;
@@ -54,34 +54,34 @@
     border-radius: 25px;
     color: #232323;
 }
-.form .dialog-heading{
+.dialog .dialog-heading{
     position: absolute;
     right: 10px;
 }
 
-.form .request-form{
+.dialog .form{
     margin: 0 auto 20px auto;
     text-align: center;
 }
-.form .request-form input,
-.form .request-form textarea{
+.dialog .form input,
+.dialog .form textarea{
     margin: 10px 5px;
     width: 93%;
 }
-.form .request-form .halfsize input{
+.dialog .form .halfsize input{
     width: 45%;
 }
-.form .request-form .col-md-12{
+.dialog .form .col-md-12{
     display: flex;
     justify-content: center;
 }
-.form .request-form button{
+.dialog .form button{
     width: 20%;
 }
-.form h2{
+.dialog h2{
     text-align: center;
 }
-.form .fa-times-circle{
+.dialog .fa-times-circle{
     font-weight: bold;
     color: #ce17ee;
 }

@@ -2,26 +2,21 @@
     padding-top: 100px;
     /*margin-top: 50px;*/
 }
-
 .best-features .container .row {
     border-bottom: 1px solid white;
     padding-bottom: 60px;
 }
-
 .best-features img {
     width: 100%;
     overflow: hidden;
 }
-
 .best-features ul.featured-list li {
     display: block;
     margin-bottom: 10px;
 }
-
 .best-features p {
     margin-bottom: 25px;
 }
-
 .best-features ul.featured-list li {
     font-size: 14px;
     color: #4a4a4a;
@@ -31,7 +26,6 @@
     padding-left: 13px;
     text-decoration: none;
 }
-
 .best-features ul.featured-list li:before {
     content: ' ';
     width: 5px;
@@ -43,11 +37,9 @@
     transition: all .3s;
     top: 8px;
 }
-
 .best-features ul.featured-list li:hover {
     color: #ce17ee;
 }
-
 .best-features ul.featured-list li:hover::before {
     background-color: #ce17ee;
 }
@@ -57,12 +49,12 @@
     margin-top: 20px;
 }
 
-.mission{
+.mini-sections{
     display: flex;
     justify-content: center;
     text-align: center;
 }
-.mission h3{
+.mini-sections h3{
     font-weight: bold;
 }
 

@@ -15,7 +15,7 @@
 
 </head>
 <body>
-<!--Contact us Form-->
+
 
     <header>
         <nav class="navbar navbar-expand-lg">
@@ -61,7 +61,7 @@
                                 <div class="title">Connect By Email</div>
                                 Get a quote or other info by sending us a message. Our travel consultants will contact you within one business day.</div>
                             <div class="col col-md-3">
-                                <button onclick="show('block')">Request Info</button>
+                                <button onclick="show('request-form','block')">Request Info</button>
                             </div>
                         </div>
                     </div>
@@ -72,7 +72,7 @@
                                 Need to speak with someone regarding your AnyWhere experience?
                                 Contact our Customer Service team.</div>
                             <div class="col col-md-3">
-                                <button>Contact Us</button>
+                                <button onclick="show('contact-form','block')">Contact Us</button>
                             </div>
                         </div>
                     </div>
@@ -86,43 +86,80 @@
         </div>
     </div>
 
+    <!--Request form-->
 
-<div class="dialog" id="dialog">
-    <div class="form" id="form">
-        <div class="dialog-heading">
-            <button onclick="show('none')" class="btn cross">
-                <i class="far fa-times-circle"></i>
-            </button>
-        </div>
-
-        <h2>Send us a Message </h2>
-
-
-        <form class="request-form" action="" name="fromRequest">
-            <div class="row">
-                <div class="col-md-12 halfsize">
-                    <input type="text" class="first-name" placeholder="First Name">
-                    <input type="text" class="last-name"  placeholder="Last Name">
-                </div>
-                <div class="col-md-12 halfsize">
-                    <input type="text" class="phone-number"  placeholder="Phone number">
-                    <input type="email" class="email" placeholder="Email">
-                </div>
-                <div class="col-md-12">
-                    <input type="text" class="destination" placeholder="Destination">
-                </div>
-                <div class="col-md-12">
-                    <textarea name="Massage" id="Massage" cols="" rows="5" placeholder="Tell us more about your travel plans"></textarea>
-                </div>
+    <div class="request-form"  id="request-form">
+        <div class="dialog">
+            <div class="dialog-heading">
+                <button onclick="show('request-form','none')" class="btn cross">
+                    <i class="far fa-times-circle"></i>
+                </button>
             </div>
-        </form>
-        <div class="col-md-12 filled-button">
-            <button onclick="show('none')">Request Information</button>
+            <h2>Send us a Message </h2>
+            <form class="form" action="" name="fromRequest">
+                <div class="row">
+                    <div class="col-md-12 halfsize">
+                        <input type="text" class="first-name" placeholder="First Name">
+                        <input type="text" class="last-name"  placeholder="Last Name">
+                    </div>
+                    <div class="col-md-12 halfsize">
+                        <input type="text" class="phone-number"  placeholder="Phone number">
+                        <input type="email" class="email" placeholder="Email">
+                    </div>
+                    <div class="col-md-12">
+                        <input type="text" class="destination" placeholder="Destination">
+                    </div>
+                    <div class="col-md-12">
+                        <textarea name="Massage" cols="" rows="5" placeholder="Tell us more about your travel plans"></textarea>
+                    </div>
+                </div>
+            </form>
+            <div class="col-md-12 filled-button">
+                <button onclick="show('request-form','none')">Request Information</button>
+            </div>
         </div>
-
     </div>
-</div>
-<div id="gray"></div>
+
+    <!--Contact us Form-->
+
+    <div class="request-form"  id="contact-form">
+        <div class="dialog">
+            <div class="dialog-heading">
+                <button onclick="show('contact-form','none')" class="btn cross">
+                    <i class="far fa-times-circle"></i>
+                </button>
+            </div>
+            <h2>Contact Us</h2>
+            <form class="form" action="" name="fromRequest">
+                <div class="row">
+                    <div class="col-md-12 halfsize">
+                        <input type="text" class="first-name" placeholder="First Name">
+                        <input type="text" class="last-name"  placeholder="Last Name">
+                    </div>
+                    <div class="col-md-12 halfsize">
+                        <input type="text" class="phone-number"  placeholder="Phone number">
+                        <input type="email" class="email" placeholder="Email">
+                    </div>
+                    <div class="col-md-12 halfsize">
+                        <input type="text" class="destination" placeholder="Destination">
+                        <input type="text" class="booking-num" placeholder="Booking Number">
+                    </div>
+                    <div class="col-md-12">
+                        <input type="date" class="departure-date" placeholder="Departure date">
+                    </div>
+                    <div class="col-md-12">
+                        <textarea name="Massage" id="Massage" cols="" rows="5" placeholder="A few words about the trip..."></textarea>
+                    </div>
+                </div>
+            </form>
+            <div class="col-md-12 filled-button">
+                <button onclick="show('contact-form','none')">Submit Feedback</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="gray"></div>
+
     <footer>
         <div class="container">
             <div class="row">
